@@ -1,0 +1,8 @@
+@import './breakpoints.scss';
+
+@mixin page-padding {
+  padding-left: 170px;
+  @include small-tablet {
+    padding: 0;
+  }
+}

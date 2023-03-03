@@ -1,7 +1,14 @@
 import React from 'react';
+import { Routing } from '../pages';
+import { withProviders } from './providers';
+import './styles/main.scss';
 
 function App() {
-  return <div className="App">Main page</div>;
+  return (
+    <div className="app">
+      <Routing />
+    </div>
+  );
 }
 
-export default App;
+export default withProviders(App);

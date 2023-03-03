@@ -1,0 +1,40 @@
+@import './normalize.scss';
+@import './vars.scss';
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Rubik', sans-serif;
+  background-color: var(--background-color);
+  color: #fff;
+  margin: 0;
+  padding: 0;
+}
+
+/* Reset's */
+.btn-reset {
+  border: none;
+  padding: 0;
+  background: transparent;
+  cursor: pointer;
+}
+.list-reset {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+.input-reset {
+  -webkit-appearance: none;
+  appearance: none;
+  border: none;
+  border-radius: 0;
+  background-color: #fff;
+}
+.link-reset {
+  text-decoration: none;
+  color: inherit;
+}

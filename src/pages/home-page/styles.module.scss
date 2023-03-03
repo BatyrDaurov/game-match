@@ -1,0 +1,5 @@
+@import '/src/shared/styles/mixins/mixins.scss';
+.home {
+  font-size: 28px;
+  @include page-padding;
+}
