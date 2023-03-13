@@ -1,0 +1,36 @@
+.search {
+  position: relative;
+  height: 62px;
+  width: 100%;
+  margin-bottom: 50px;
+  svg {
+    pointer-events: none;
+    position: absolute;
+    top: 50%;
+    left: 1em;
+    transform: translateY(-50%);
+    z-index: 99;
+  }
+  input {
+    position: absolute;
+    width: 100%;
+    padding: 19px;
+    padding-left: 3.5em;
+    font-size: 20px;
+    color: #666972;
+    background-color: var(--dark-gray-color);
+    border-radius: 18px;
+    border: 1px solid transparent;
+    transition: 0.1s linear;
+    &:hover {
+      border: 1px solid #444445;
+    }
+    &:focus {
+      border: 1px solid #151515;
+      outline: 0;
+    }
+    &::placeholder {
+      color: #464950;
+    }
+  }
+}

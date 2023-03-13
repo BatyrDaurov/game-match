@@ -1,5 +1,11 @@
 @import '/src/shared/styles/mixins/mixins.scss';
 .home {
+  padding-top: 45px;
+  max-width: 1595px;
   font-size: 28px;
   @include page-padding;
+  &__banners {
+    display: flex;
+    justify-content: space-between;
+  }
 }

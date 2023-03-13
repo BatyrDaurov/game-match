@@ -1,0 +1,18 @@
+.button {
+  padding: 11px 15px;
+  font-family: inherit;
+  font-size: 17px;
+  font-weight: 500;
+  line-height: 25px;
+  color: #fff;
+  background-color: var(--primary-color);
+  box-shadow: 0px 2px 8px rgba(202, 205, 219, 0.42);
+  border-radius: 8px;
+  transition: 0.15s linear;
+  &:hover {
+    box-shadow: none;
+  }
+  &:active {
+    transform: translateY(2px);
+  }
+}

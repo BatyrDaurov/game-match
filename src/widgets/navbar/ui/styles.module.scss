@@ -1,5 +1,6 @@
-@import './../styles/mixin.scss';
+@import '/src/shared/styles/mixins/mixins.scss';
 @import '/src/shared/styles/mixins/breakpoints.scss';
+
 .navbar {
   position: absolute;
   top: 0;
@@ -33,7 +34,7 @@
   }
   &__active {
     align-items: start;
-    padding-left: 22px;
+    padding-left: 30px;
     width: 100% !important;
     .navbar__item {
       a {
